@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio Garota Trançada</title>
-    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
     <!-- icon -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -15,6 +19,40 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <header class="one-header" id="header">
+      <div class="navbar container flex">
+        <div class="brand">
+          <a href="#"
+            ><img src="./assets/img/logo.svg" alt="Studio Garota Trançada"
+          /></a>
+        </div>
+        <div class="nav" id="nav">
+          <ul class="nav__menu">
+            <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">quem somos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">serviços</a>
+            </li>
+            <li class="nav__item">
+              <a href="#package" class="nav__link">pacotes</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gallery" class="nav__link">galeria</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">contato</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__taggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
     <!-- javascript -->
+    <script src="./js/script.js"></script>
   </body>
 </html>
