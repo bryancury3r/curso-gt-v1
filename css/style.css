@@ -130,3 +130,21 @@ section {
 }
 
 /*------------ MEDIA QUERY NAVBAR --------------------*/
+@media (max-width: 960px) {
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: var(--main-color);
+    font-size: var(--h2-font-size);
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: var(--header-height);
+  }
+
+  .nav__item {
+    padding: 15px 0;
+  }
+}
