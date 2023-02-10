@@ -24,3 +24,15 @@ function linkAction() {
   navMenu.classList.remove("show-menu");
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+// ----------------- DEIXA O LINK CLICADO A CLASS ACTIVE ---------------//
+
+const linkcolor = document.querySelectorAll(".nav__link");
+
+function colorLink() {
+  if (linkcolor) {
+    linkcolor.forEach((L) => L.classList.remove("active-link"));
+    this.classList.add("active-link");
+  }
+}
+linkcolor.forEach((L) => L.addEventListener("click", colorLink));

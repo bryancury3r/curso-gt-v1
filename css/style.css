@@ -176,6 +176,7 @@ section {
   width: 100%;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link.active-link {
   color: var(--main-color);
 }
