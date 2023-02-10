@@ -143,6 +143,7 @@ section {
     text-align: center;
     text-transform: capitalize;
     padding-top: var(--header-height);
+    transition: all 400ms ease-in-out;
   }
 
   .nav__item {
