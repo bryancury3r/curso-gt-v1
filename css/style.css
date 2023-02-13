@@ -205,3 +205,18 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+.hero .hero__content h1 {
+  font-family: var(--font-cursive);
+  font-size: var(--big-font-size);
+  line-height: calc(var(--big-font-size) + 30px);
+  letter-spacing: 0.1rem;
+  color: var(--whiter-color);
+  margin-bottom: var(--mb-1-5);
+}
+
+.hero .hero__content p {
+  fomt-weight: var(--font-medium);
+  text-align: center;
+  line-height: calc(var(--normal-font-size));
+}
