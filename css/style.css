@@ -109,6 +109,15 @@ section {
   text-align: center;
   background-color: var(--whiter-color);
   color: var(--main-color);
+  border: 1px solid var(--first-color);
+  border-radius: 50px;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
+  line-height: var(--normal-font-size);
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
 }
 
 /*------------ NAV --------------------*/
