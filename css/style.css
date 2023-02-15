@@ -9,7 +9,7 @@
   /*------------ COLLORS --------------------*/
 
   --main-color: #a97782;
-  --first-color: #75492b;
+  --first-color: #c497a0;
   --second-color: #dfd6a7;
   --whiter-color: #ffffff;
   --black-color: #151515;
@@ -118,6 +118,12 @@ section {
   padding: 10px 20px;
   outline: none;
   cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.btn:hover {
+  background-color: var(transparent);
+  color: var(--first-color);
 }
 
 /*------------ NAV --------------------*/
