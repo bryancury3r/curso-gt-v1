@@ -200,7 +200,7 @@ section {
 }
 
 .one-header img {
-  padding: 2px;
+  /* padding: 2px; */
   width: 20%;
 }
 
@@ -353,4 +353,9 @@ section {
   background: var(--main-color);
   border-radius: 30px;
   box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.5);
+  z-index: var(--z_negative);
+}
+
+.about__description p {
+  color: var(--whiter-color);
 }
