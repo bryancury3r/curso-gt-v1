@@ -99,6 +99,26 @@ section {
   justify-content: center;
 }
 
+.section__title {
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.section__title h1 {
+  font-family: var(--font-cursive);
+  font-size: var(--big-font-size);
+  font-weight: var(--font-medium);
+  line-height: var(--big-font-size);
+  color: var(--first-color);
+}
+
+.section__title span {
+  font-weight: var(--font-light);
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-font-size);
+  color: var(--black-color);
+}
+
 /*------------ BUTTON --------------------*/
 
 .btn {
