@@ -312,3 +312,22 @@ section {
   color: var(--black-color);
   margin-bottom: var(--mb-1-5);
 }
+
+.about {
+  width: 100%;
+  background-image: url(../assets/img/arabesco-left-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  z-index: var(--z_negative);
+}
+
+.about__detail {
+  width: 100%;
+  padding: 2rem;
+}
+
+.about__detail__content {
+  border: 2px solid var(--first-color);
+  border-radius: 30px;
+  padding: 1rem;
+}
