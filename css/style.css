@@ -358,4 +358,6 @@ section {
 
 .about__description p {
   color: var(--whiter-color);
+  font-weight: var(--font-medium);
+  line-height: calc(var(--normal-font-size) + 12px);
 }
