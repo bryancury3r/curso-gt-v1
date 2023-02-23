@@ -381,5 +381,13 @@ section {
 }
 
 .section__content__description .box {
+  width: 200px;
+  height: 200px;
   padding: 20px;
+}
+
+.section__content__description .box .inner img {
+  width: 90%;
+
+  margin-bottom: var(--mb-1);
 }
