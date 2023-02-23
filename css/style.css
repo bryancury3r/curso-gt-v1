@@ -361,3 +361,25 @@ section {
   font-weight: var(--font-medium);
   line-height: calc(var(--normal-font-size) + 12px);
 }
+
+/*------------ SERVICES -----------------*/
+
+.services {
+  width: 100%;
+  background: url(../assets/img/arabesco-left-top.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: var(--z_negative);
+}
+
+.services__content__description {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  grid-template-column: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.section__content__description .box {
+  padding: 20px;
+}
