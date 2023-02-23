@@ -376,13 +376,12 @@ section {
   width: 100%;
   padding: 2rem;
   text-align: center;
+
   grid-template-column: repeat(2, 1fr);
   gap: 10px;
 }
 
 .section__content__description .box {
-  width: 200px;
-  height: 200px;
   padding: 20px;
 }
 
