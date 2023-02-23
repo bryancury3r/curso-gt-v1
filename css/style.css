@@ -376,17 +376,34 @@ section {
   width: 100%;
   padding: 2rem;
   text-align: center;
-
-  grid-template-column: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 
-.section__content__description .box {
+.services__content__description .box {
   padding: 20px;
 }
 
-.section__content__description .box .inner img {
+.services__content__description .box .inner img {
   width: 90%;
 
   margin-bottom: var(--mb-1);
+}
+
+.services__content__description .box .inner {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  text-transform: capitalize;
+  color: var(--first-color);
+  padding: 10px;
+  position: relative;
+}
+
+.services__content__description .box .inner::before,
+.services__content__description .box .inner::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  transition: all 0.8s ease;
 }
