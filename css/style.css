@@ -127,8 +127,8 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: var(--whiter-color);
-  color: var(--main-color);
+  /* background-color: var(--whiter-color);
+  color: var(--main-color); */
   border: 1px solid var(--first-color);
   border-radius: 50px;
   font-size: var(--normal-font-size);
@@ -139,11 +139,21 @@ section {
   outline: none;
   cursor: pointer;
   transition: all 400ms ease;
+
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(90deg, rgb(169, 119, 132) -0.03%, rgb(64, 203, 246) 99.92%)
+    repeat scroll 0% 0%;
+  /* -webkit-text-fill-color: transparent;
+  background-clip: text; */
+
+  -moz-box-align: center;
+
+  color: var(--black-color);
 }
 
 .btn:hover {
   background-color: var(transparent);
-  color: var(--first-color);
+  color: var(--whiter-color);
 }
 
 .btn__outline {
@@ -376,8 +386,18 @@ section {
   width: 100%;
   padding: 2rem;
   text-align: center;
+
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+
+  background-image: linear-gradient(
+    90deg,
+    rgb(169, 119, 132) -0.03%,
+    rgb(64, 203, 246) 99.92%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
 }
 
 .services__content__description .box {
@@ -439,4 +459,13 @@ section {
 
 .package__cards {
   margin-top: var(--mg-2-5);
+}
+
+.card {
+  height: 360px;
+  background-color: var(--whiter-color);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 1.5rem;
+  margin: 10px auto;
 }
