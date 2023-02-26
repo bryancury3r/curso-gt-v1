@@ -428,3 +428,15 @@ section {
   width: 100%;
   height: 100%;
 }
+
+/*------------ Package -----------------*/
+
+.package {
+  width: 100%;
+  background-color: var(--main-color);
+  border-radius: 0 300px;
+}
+
+.package__cards {
+  margin-top: var(--mg-2-5);
+}
