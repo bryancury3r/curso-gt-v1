@@ -13,6 +13,7 @@
   --second-color: #dfd6a7;
   --whiter-color: #ffffff;
   --black-color: #151515;
+  --stroke-color: rgba(255, 255, 255, 0.5);
 
   /*------------ FONT AND TYPOGRAPHY --------------------*/
   --font-cursive: "Great Vibes", cursive;
@@ -109,14 +110,20 @@ section {
   font-size: var(--big-font-size);
   font-weight: var(--font-medium);
   line-height: var(--big-font-size);
-  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+  color: var(--black-color);
 }
 
 .section__title span {
-  font-weight: var(--font-light);
+  /* font-weight: var(--font-light);
   font-size: var(--h2-font-size);
   line-height: var(--h2-font-size);
-  color: var(--black-color);
+  color: var(--black-color); */
+
+  font-size: 1.125rem;
+  font-weight: normal;
+  margin-top: 20px;
+  opacity: 0.6;
 }
 
 /*------------ BUTTON --------------------*/
@@ -458,8 +465,15 @@ section {
 }
 
 .package__cards {
-  margin-top: var(--mg-2-5);
+  margin-top: var(--mb-2-5);
 }
+
+/* .section__title span {
+  font-size: 1.125rem;
+  font-weight: normal;
+
+  opacity: 0.6;
+} */
 
 .card {
   height: 360px;
@@ -477,7 +491,7 @@ section {
 
 .card__title {
   text-align: center;
-  margin-bottom: var(--mg-1-5);
+  margin-bottom: var(--mb-1-5);
 }
 
 .card__title h1 {
@@ -485,4 +499,23 @@ section {
   font-size: var(--h1-font-size);
   line-height: var(--h1-font-size);
   color: var(--first-color);
+}
+
+.card__items {
+  margin-bottom: var(--mb-05);
+}
+
+.card__items .btn-p {
+  font-weight: var(--font-);
+  line-height: calc(var(--normal-font-size) + 10px);
+  margin-top: var(--mb-05);
+  font-size: var(--samll-font-size);
+  opacity: 0.6;
+}
+
+.item p {
+  font-weight: var(--font-medium);
+  line-height: calc(var(--normal-font-size) + 10px);
+  opacity: 0.6;
+  margin-left: var(--mb-05);
 }
