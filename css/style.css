@@ -461,7 +461,7 @@ section {
 .package {
   width: 100%;
   background-color: var(--main-color);
-  border-radius: 0 300px;
+  border-radius: 0 180px;
 }
 
 .package__cards {
@@ -518,4 +518,14 @@ section {
   line-height: calc(var(--normal-font-size) + 10px);
   opacity: 0.6;
   margin-left: var(--mb-05);
+}
+
+.item .check__icon {
+  font-size: var(--h3-font-size);
+  color: var(--main-color);
+}
+
+.card__items button {
+  margin: 0 auto;
+  margin-top: var(--mb-1);
 }
