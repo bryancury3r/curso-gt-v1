@@ -506,7 +506,7 @@ section {
 }
 
 .card__items .btn-p {
-  font-weight: var(--font-);
+  font-weight: var(--font-normal);
   line-height: calc(var(--normal-font-size) + 10px);
   margin-top: var(--mb-05);
   font-size: var(--samll-font-size);
@@ -570,5 +570,20 @@ section {
 }
 
 .gallery__content .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   margin: 0 auto;
+  margin-bottom: var(--mb-1);
+}
+
+.gallery__content i {
+  font-size: var(--h1-font-size);
+
+  z-index: var(--z-tooltip);
+  color: var(--main-color);
+}
+
+.gallery__content a i:hover {
+  transform: scale(1.1);
 }
