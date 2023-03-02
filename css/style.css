@@ -111,7 +111,16 @@ section {
   font-weight: var(--font-medium);
   line-height: var(--big-font-size);
   margin-bottom: var(--mb-1);
-  color: var(--black-color);
+  color: var(--main-color);
+}
+
+.section__title h2 {
+  font-family: var(--font-cursive);
+  font-size: var(--big-font-size);
+  font-weight: var(--font-medium);
+  line-height: var(--big-font-size);
+  margin-bottom: var(--mb-1);
+  color: var(--whiter-color);
 }
 
 .section__title span {
