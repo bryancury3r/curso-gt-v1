@@ -158,7 +158,7 @@ section {
   transition: all 400ms ease;
 
   background: rgba(0, 0, 0, 0)
-    linear-gradient(90deg, rgb(169, 119, 132) -0.03%, rgb(64, 203, 246) 99.92%)
+    linear-gradient(90deg, rgb(169, 119, 132) -0.03%, rgb(169, 119, 125) 99.92%)
     repeat scroll 0% 0%;
   /* -webkit-text-fill-color: transparent;
   background-clip: text; */
