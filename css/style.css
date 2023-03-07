@@ -671,3 +671,17 @@ section {
   line-height: var(--h2-font-size);
   margin-top: var(--mb-2);
 }
+
+/*------------ FOOTER --------------------*/
+
+.footer__list {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--first-color);
+}
+
+.footer__data-social .social__icon {
+  color: var(--first-color);
+  font-size: var(--h2-font-size);
+}
