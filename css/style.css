@@ -354,7 +354,7 @@ section {
 }
 
 .about__detail__content {
-  border: 2px solid var(--first-color);
+  border: 3px solid var(--first-color);
   border-radius: 30px;
   padding: 1rem;
 }
@@ -731,4 +731,14 @@ section {
 .footer .copy span {
   font-size: var(--small-font-size);
   line-height: var(--small-font-size);
+}
+
+/*------------ MEDIA QUERY --------------------*/
+
+@media (min-width: 860px) {
+  .about__detail__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
