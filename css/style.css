@@ -673,6 +673,13 @@ section {
 }
 
 /*------------ FOOTER --------------------*/
+.footer {
+  width: 100%;
+  background: url(../assets/img/arabesco-left-top.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: var(--z_negative);
+}
 
 .footer__list {
   grid-template-columns: repeat(2, 1fr);
@@ -684,4 +691,44 @@ section {
 .footer__data-social .social__icon {
   color: var(--first-color);
   font-size: var(--h2-font-size);
+}
+
+.footer__data-social .social__icon:hover {
+  border-bottom: 1px solid var(--first-color);
+}
+
+.footer__data {
+  text-align: center;
+  margin-bottom: var(--mb-1);
+}
+
+.footer_data-social {
+  margin-top: var(--mb-1);
+}
+
+.footer__data h2 {
+  font-weight: var(--font-bold);
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+  text-transform: capitalize;
+}
+
+.footer__data iframe {
+}
+
+.footer .copy {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer .copy p {
+  font-weight: var(--font-bold);
+  line-height: var(--h3-font-size);
+}
+
+.footer .copy span {
+  font-size: var(--small-font-size);
+  line-height: var(--small-font-size);
 }
