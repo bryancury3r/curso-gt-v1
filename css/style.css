@@ -226,14 +226,14 @@ section {
   transition: all 400ms ease;
 }
 
-.one-header .brand img {
+/* .one-header .brand img {
   /* padding: 2px; */
   width: 20%;
-}
+} */
 
 .navbar {
   justify-content: space-between;
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 .nav__toggle {
@@ -257,7 +257,7 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60%;
+    width: 0;
     height: 100vh;
     background-color: var(--second-color);
     font-size: var(--h2-font-size);
