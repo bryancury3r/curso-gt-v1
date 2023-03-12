@@ -226,10 +226,14 @@ section {
   transition: all 400ms ease;
 }
 
-/* .one-header .brand img {
-  /* padding: 2px; */
-  width: 20%;
-} */
+.one-header .brand h1 {
+  color: var(--main-color);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
+  line-height: var(--normal-font-size);
+  padding: 2px;
+}
 
 .navbar {
   justify-content: space-between;
@@ -309,7 +313,7 @@ section {
   border-radius: 0 0 300px 0;
 }
 
-.hero .hero__img {
+.hero .hero__img img {
   display: none;
 }
 
@@ -773,7 +777,7 @@ section {
     display: flex;
     align-items: center;
 
-    padding: 0;
+    padding: 16px;
   }
 
   .nav__item:not(:last-child) {
