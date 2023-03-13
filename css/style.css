@@ -315,7 +315,7 @@ section {
   border-radius: 0 0 300px 0;
 }
 
-.hero .hero__img img {
+.hero .hero__img {
   display: none;
 }
 
@@ -779,7 +779,7 @@ section {
     display: flex;
     align-items: center;
 
-    padding: 16px;
+    padding: 0px;
   }
 
   .nav__item:not(:last-child) {
@@ -797,5 +797,15 @@ section {
 
   .nav__toggle {
     display: none;
+  }
+
+  .hero .hero__img {
+    display: block;
+  }
+
+  .hero .hero__img,
+  .hero .hero__content {
+    width: 50%;
+    height: 100vh;
   }
 }
