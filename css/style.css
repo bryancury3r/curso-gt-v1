@@ -808,4 +808,10 @@ section {
     width: 50%;
     height: 100vh;
   }
+
+  .hero .hero__img img {
+    max-width: 90%;
+    height: 100%;
+    border-radius: 10px;
+  }
 }
