@@ -227,11 +227,13 @@ section {
 }
 
 .one-header .brand h1 {
+  font-family: var(--font-cursive);
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-medium);
+  line-height: var(--big-font-size);
+
   color: var(--main-color);
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi-bold);
-  text-transform: uppercase;
-  line-height: var(--normal-font-size);
+
   padding: 2px;
 }
 
