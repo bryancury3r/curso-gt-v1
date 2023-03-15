@@ -36,3 +36,13 @@ function colorLink() {
   }
 }
 linkcolor.forEach((L) => L.addEventListener("click", colorLink));
+
+// ----------------- MUDAR A COR DO HEADER ---------------//
+
+function scrollHeader() {
+  const scrollHeader = document.getElementById("header");
+  if (this.scrolly >= 100) scrollHeader.classList.add("scroll-header");
+  else scrollHeader.classList.remove("scroll-header");
+}
+
+window.addEventListener("scroll", scrollHeader);
