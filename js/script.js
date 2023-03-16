@@ -41,7 +41,7 @@ linkcolor.forEach((L) => L.addEventListener("click", colorLink));
 
 function scrollHeader() {
   const scrollHeader = document.getElementById("header");
-  if (this.scrolly >= 100) scrollHeader.classList.add("scroll-header");
+  if (this.scrollY >= 100) scrollHeader.classList.add("scroll-header");
   else scrollHeader.classList.remove("scroll-header");
 }
 
