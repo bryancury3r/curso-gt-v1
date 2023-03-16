@@ -11,7 +11,7 @@
   --main-color: #a97782;
   --first-color: #c497a0;
   --second-color: #dfd6a7;
-  --second-blue-color: rgb(64, 203, 246);
+  --second-blue-color: rgb(246, 225, 190);
   --whiter-color: #ffffff;
   --black-color: #151515;
   --stroke-color: rgba(255, 255, 255, 0.5);
@@ -560,7 +560,7 @@ section {
   background-image: linear-gradient(
     90deg,
     rgb(169, 119, 132) -0.03%,
-    rgb(64, 203, 246) 99.92%
+    rgb(246, 225, 190) 99.92%
   );
   /* background-clip: text; */
   -webkit-text-fill-color: transparent;
