@@ -165,7 +165,7 @@ section {
 
   -moz-box-align: center;
 
-  color: var(--black-color);
+  color: var(--main-color);
 }
 
 .btn:hover {
@@ -249,7 +249,7 @@ section {
   border: 2px solid transparent;
   cursor: pointer;
   z-index: var(--z-fixed);
-  color: var(--black-color);
+  color: var(--main-color);
 }
 
 .nav__toggle:hover {
